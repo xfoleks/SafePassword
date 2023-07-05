@@ -10,11 +10,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SafePassword"
-        tools:targetApi="31">
+        android:theme="@style/Theme.SafePassword.SplashScreen"
+        tools:targetApi="33">
         <activity
-            android:name=".presentation.MainActivity"
-            android:exported="true">
+            android:name=".presentation.activities.main.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SafePassword">
+        </activity>
+
+        <activity
+            android:name=".presentation.activities.splashscreen.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SafePassword.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

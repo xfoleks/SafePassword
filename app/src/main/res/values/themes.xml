@@ -1,9 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.SafePassword" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.SafePassword" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.SafePassword" parent="Base.Theme.SafePassword" />
+    <style name="Theme.SafePassword.SplashScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@drawable/launch_background</item>
+    </style>
 </resources>
