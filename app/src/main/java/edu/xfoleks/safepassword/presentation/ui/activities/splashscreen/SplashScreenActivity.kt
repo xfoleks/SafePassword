@@ -1,4 +1,4 @@
-package edu.xfoleks.safepassword.presentation.activities.splashscreen
+package edu.xfoleks.safepassword.presentation.ui.activities.splashscreen
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -7,7 +7,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import edu.xfoleks.safepassword.presentation.activities.main.MainActivity
+import edu.xfoleks.safepassword.presentation.ui.activities.main.MainActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : Activity() {
